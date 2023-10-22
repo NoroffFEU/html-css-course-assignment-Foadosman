@@ -10,10 +10,26 @@ body {
   background-color: var(--color-secondary);
 }
 
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+
+.logo {
+  max-width: 200px;
+  width: 134px;
+  height: auto;
 }
+
+nav {
+  display: inline-block;
+}
+
+
+
+nav a{
+  color: #000;
+  text-decoration: none;
+  padding: 16px;
+}
+
+nav ul {
+  padding: 0px;
+}
+
