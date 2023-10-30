@@ -130,8 +130,11 @@ label #cancel {
   margin-right: 10%;
 }
 
-.buy-product .item1 {
-  width: 550px;
+.overview {
+  background: #ECF5F7;
+  border: 2px solid black;
+  height: 672px;
+  width: 454px;
 }
 
 .buy-product .logo {
@@ -148,6 +151,22 @@ label #cancel {
   height: 50px;
 }
 
+
+.add-to-cart {
+  color: white;
+  font-size: 20px;
+  background: #0A2841;
+  border-radius: 10px;
+  width: 348px;
+  height: 50px;
+  text-transform: uppercase;
+}
+
+.shipping {
+  border: 2px solid black;
+  width: 412px;
+  height: 58px;
+}
 
 /*checkout page */
 
@@ -167,8 +186,34 @@ fieldset {
 
 /* contact */
 
+.main-contact {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%
+}
+
+.contact-info-box {
+  background: #0E7D99;
+  width: 450px;
+
+}
+
+.contact-info {
+  display: table-caption;
+  margin: 20px;
+}
+
 .contact-form {
   display: block;
+  margin-bottom: 10px;
+  width: 456px;
+  height: 47px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.message {
+  height: 355px;
 }
 
 
@@ -195,7 +240,34 @@ footer ul li a {
   margin-inline: 14px;
 }
 
+/*about*/
 
+.about-hero {
+  width: 100%;
+  height: auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+.about-slogan {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.img-zigzag {
+  display: flex;
+}
+
+.img-text {
+  text-align: center;
+}
 
 @media (max-width: 1200px) {
   nav img {
