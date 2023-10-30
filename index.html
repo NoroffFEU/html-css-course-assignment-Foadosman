@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RAINYDAYS</title>
     <link rel="stylesheet" href="src/css/styles.css">
+    <script src="https://kit.fontawesome.com/677723285f.js"></script>
   </head>
-  <body class="centered">
+  <body>
     <header>
       <nav>
-        <a href="index.html">
-          <img src="/assets/images/RainyDays_Logo.png" alt="rainydays logo" class="logo">
-        </a>
+        <input type="checkbox" id="check">
+        <label for="check">
+          <span class="fas fa-bars" id="btn"></span>
+          <span class="fas fa-times" id="cancel"></span>
+        </label>
+        <img src="/assets/images/RainyDays_Logo.png">
+        <div class="icons">
+          <span class="fa-solid fa-magnifying-glass" style="color: #000000;"></span>
+          <span class="fa-regular fa-user" style="color: #000000;"></span>
+          <span class="fa-regular fa-heart" style="color: #000000;"></span>
+        </div>
         <ul>
           <li><a href="index.html">home</a></li>
           <li><a href="men.html">men</a></li>
@@ -22,50 +31,57 @@
       </nav>
     </header>
     <main>
-      <div>
-        <div><img src="/assets/images/nina-luong-dy4QG5c5xWQ-unsplash 3Herobanner.png" alt="herobanner" class="herobannerimg"></div>
-        <h1>pushing the comfort zone</h1>
-      </div>
-      <section>
-        <h2>featured products</h2>
         <div>
-          <h3>storm protector</h3>
-          <P>featured</P>
-          <p>$140</p>
+          <img src="/assets/images/nina-luong-dy4QG5c5xWQ-unsplash 3Herobanner.png" alt="herobanner" class="herobanner-img">
+          <h1 class="herobanner-slogan">pushing the comfort zone</h1>
         </div>
-        <div>
-          <h3>storm protector</h3>
-          <P>featured</P>
-          <p>$140</p>
+        <section class="gender">
+        <div class="women">
+          <img src="/assets/images/back-view-backpacker-raincoat-walking-rocky-path-autumn-forest 2Category-women.png">
+          <div>
+          <h2>women</h2>
+          <button>shop jackets</button>
         </div>
-        <div>
-          <h3>storm protector</h3>
-          <P>featured</P>
-          <p>$140</p>
-        </div>
-        <div>
-          <h3>storm protector</h3>
-          <P>featured</P>
-          <p>$140</p>
+        <div class="men">
+          <img src="/assets/images/thimo-pedersen-0NBehh0Cc4Q-unsplash 2Category-men.png">
+          <h2>women</h2>
+          <button>shop jackets</button>
         </div>
       </section>
-      <section>
+      <h2>featured</h2>
+      <section class="featured">
         <div>
-          <h2>about us</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Sed eleifend at mi quis facilisis. Nullam nec ullamcorper ligula.
-            Phasellus sit amet sollicitudin ligula.
-            Vivamus auctor justo non sem feugiat,
-            id pharetra lectus tristique.
-            Fusce auctor quam a ipsum tincidunt, a lacinia arcu aliquet.
-            Suspendisse potenti.
-          </p>
+          <a href="item1.html">
+          <img src="/assets/images/RainyDays_Jacket1 1featured1.png">
+          <h3>storm protector</h3>
+          <p>$140.00</p>
+          </a>
+        </div>
+        <div>
+          <img src="/assets/images/RainyDays_Jacket2 1featured2.png">
+          <h3>storm protector</h3>
+          <p>$140.00</p>
+        </div>
+        <div>
+          <img src="/assets/images/RainyDays_Jacket3 1featured3.png">
+          <h3>storm protector</h3>
+          <p>$140.00</p>
+        </div>
+        <div>
+          <img src="/assets/images/RainyDays_Jacket7 1featured4.png">
+          <h3>storm protector</h3>
+          <p>$140.00</p>
         </div>
       </section>
     </main>
     <footer>
-
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="men.html">men</a></li>
+        <li><a href="women.html">women</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
     </footer>
   </body>
 </html>
