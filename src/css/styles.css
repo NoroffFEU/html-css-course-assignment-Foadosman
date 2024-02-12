@@ -138,9 +138,11 @@ label #cancel {
   left: 50%;
   transform: translateX(-50%);
   padding: 10px 20px;
-  background-color: grey;
+  background-color: rgba(128, 128, 128, 0);
   color: white;
-  border: none;
+  border: 3px solid white;
+  width:50%;
+  font-size: large;
 }
 
 
@@ -355,21 +357,20 @@ label #cancel {
 /*checkout */
 
 .checkout-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-
-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+  margin-bottom: 40px;
+  align-items: start;
+  grid-gap: 100px;
 }
 
 
 fieldset {
   width: 500px;
-  border: 2px solid black;
-  margin-top: 70px;
+  width: 100%;
 }
 
 form fieldset select {
@@ -379,9 +380,9 @@ form fieldset select {
 .form__input {
   display: block;
   margin-bottom: 10px;
-  width: 80%;
+  width: 90%;
   height: 30px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 form label {
@@ -425,12 +426,11 @@ form label {
   border: 2px solid black;
   width: 400px;
   height: 430px;
-  margin-right: 10%;
-  margin-top: 70px;
   background: #ECF5F7;
-  display: flex;
   align-items: center;
   flex-direction: column;
+  justify-self: end;
+  width: 100%;
 }
 
 
@@ -462,9 +462,13 @@ form label {
   margin-right: 20px;
 }
 
-hr {
-  width: 300px;
-  margin: 50px;
+.black-line {
+  height: 1px;
+  background-color: black;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .subtotal {
@@ -532,11 +536,6 @@ textarea {
   border-radius: 10px;
 }
 
-/*.available, .email-contact,
-.phone-contact, .address-contact {
-  margin: 20px 0px 40px 50px;
-} */
-
 .available {
   margin: 20px 0px 40px 50px;
   display: flex;
@@ -577,6 +576,7 @@ footer {
 
 .signup-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding-top: 50px;
@@ -610,6 +610,7 @@ footer {
   width: 120px;
   height: 25px;
   font-size: 15px;;
+  margin: 15px 0 0 0;
 }
 
 .footer-nav ul {
@@ -738,6 +739,14 @@ nav img {
     font-size: 60px;
   }
 
+  .women-btn {
+    font-size: 15px;
+  }
+
+  .men-btn {
+    font-size: 15px;
+  }
+
   .featured img {
     width: 140px;
   }
@@ -780,12 +789,7 @@ nav img {
     font-size: 13px;
   }
 
-  fieldset {
-    width: 400px;
-  }
-
   .cart-container {
-    width: 330px;
     height: 360px;
   }
 
@@ -799,22 +803,18 @@ nav img {
   }
 
   .subtotal {
-    margin: 20px 50px;
+    margin: 20px 20px;
   }
 
   .shipping-total {
-    margin: 0px 50px;
+    margin: 0px 20px;
   }
 
   .total {
-    margin: 0px 50px;
+    margin: 0px 20px;
   }
 
-  hr {
-    margin: 40px;
-  }
 }
-
 
 
 @media (max-width: 870px) {
@@ -837,6 +837,13 @@ nav img {
 
   .featured p {
     font-size: 13px;
+  }
+
+  .women-btn, .men-btn {
+    padding: 3px 10px;
+    font-size: 13px;
+    width: 70%;
+    margin-top: 3px;
   }
 
   .see-all {
@@ -893,13 +900,17 @@ nav img {
   .heart p {
     font-size: 13px;
   }
+  
+.checkout-container {
+  grid-gap: 40px;
+}
 
-  fieldset {
-    width: 320px;
+  .form__input {
+    width: 80%;
   }
 
   .cart-container {
-    width: 190px;
+    width:230px;
     height: 300px;
   }
 
@@ -913,20 +924,15 @@ nav img {
   }
 
   .subtotal {
-    margin: 20px 40px;
+    margin: 20px 20px;
   }
 
   .shipping-total {
-    margin: 0px 40px;
+    margin: 0px 20px;
   }
 
   .total {
-    margin: 0px 40px;
-  }
-
-  hr {
-    margin: 30px;
-    width: 170px;
+    margin: 0px 20px;
   }
 
   .about-quote {
@@ -974,6 +980,12 @@ nav img {
   .gender-select {
     grid-template-columns: 1fr;
     grid-gap: 1em;
+  }
+
+  .women-btn, .men-btn {
+    padding: 10px 20px;
+    margin-top: 0px;
+    font-size: 18px;
   }
 
   .container {
@@ -1065,6 +1077,19 @@ nav img {
 
   .checkout-container {
     display: block;
+  }
+
+  .checkout-container {
+    grid-template-columns:;
+  }
+
+  .cart-container {
+    width: 100%;
+  }
+
+  fieldset {
+    width: 100%;
+    margin-bottom: 20px;
   }
 
 
