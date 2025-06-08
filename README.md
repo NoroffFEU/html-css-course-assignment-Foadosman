@@ -1,6 +1,6 @@
 # RainyDays
 
-![Rainydays teaser](assets/images/Rainydays-teaser.png)
+![Rainydays teaser](assets/images/Rainydays_teaser.png)
 
 Online store for rain jackets.
 
