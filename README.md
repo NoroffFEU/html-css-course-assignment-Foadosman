@@ -1,4 +1,8 @@
+#RainyDays
+
 ![Rainydays teaser](assets/images/Rainydays-teaser.png)
+
+Online store for rain jackets.
 
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12141453&assignment_repo_type=AssignmentRepo)
 # HTML & CSS Course Assignment
@@ -28,9 +32,3 @@ The site needs to have every page listed in the site architecture on your chosen
 8. Look at the work of your peers and write a review for them.
 9. Make adjustments based on the feedback you gather from peers and teachers.
 10. Submit here on Teams.
-
-## Delivery
-
-- Please include a link to your live site, deployed on Netlify or GitHub Pages in your submission.
-- Please include a link to your public GitHub repo containing your code in your submission.
-- There is no reflection for this CA.
