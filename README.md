@@ -1,4 +1,4 @@
-#RainyDays
+# RainyDays
 
 ![Rainydays teaser](assets/images/Rainydays-teaser.png)
 
